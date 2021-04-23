@@ -15,4 +15,5 @@ $ make setup
 - `environment.yml`: configurações do ambiente do conda
 - `requirements.txt`: bibliotecas a serem instaladas no Python
 - `Makefile`: centralizar comandos através de regras (rules)
-
+- `data/`: diretório de dados. Os dados brutos são guardados na pasta `data/raw/`, e os dados preprocessados na pasta `data/processed`.
+- `plpred/`: diretório principal do pacote, com as função da aplicação.
