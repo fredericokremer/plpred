@@ -18,3 +18,4 @@ $ make setup
 - `data/`: diretório de dados. Os dados brutos são guardados na pasta `data/raw/`,os dados preprocessados na pasta `data/processed` e os modelos treinados na pasta `data/models`.
 - `plpred/`: diretório principal do pacote, com as função da aplicação.
 - `plpred/models`: disponibiliza modelos preditivos baseados em *Random Forest*, *Gradient Boosting*, SVM e redes neurais (MLP).
+- `tests/`: conjunto de testes unitários para os componentes do Plpred.
