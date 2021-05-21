@@ -9,5 +9,3 @@ dependencies:
   - jupyterlab
   - openblas
   - make
-  - pip:
-    - -r requirements.txt
