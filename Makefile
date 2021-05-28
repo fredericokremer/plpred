@@ -14,7 +14,10 @@ preprocessing:
 training:
 	plpred-train -p data/processed/processed.csv \
 		-o data/models/model.pickle \
-		-r 
+		-r 	
+
+server:
+	plpred-server --host 0.0.0.0 --port 8000 --model data/models/model.pickle
 
 test:
 	python -m pytest
