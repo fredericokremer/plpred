@@ -13,7 +13,7 @@ preprocessing:
 
 training:
 	plpred-train -p data/processed/processed.csv \
-		-o data/models/models.pickle \
+		-o data/models/model.pickle \
 		-r 
 
 test:
