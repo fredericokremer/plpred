@@ -11,4 +11,3 @@ dependencies:
   - make
   - pip:
     - -r requirements.txt
-    - -e .

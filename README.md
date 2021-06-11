@@ -2,7 +2,9 @@
 
 By Frederico Schmitt Kremer
 
-a protein subcellular location prediction program
+a protein subcellular location prediction program.
+
+Available at: [https://fsk-plpred.herokuapp.com/](https://fsk-plpred.herokuapp.com/)
 
 ## Setup
 
