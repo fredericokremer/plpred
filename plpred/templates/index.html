@@ -35,14 +35,16 @@
                 </form>
             </div>
         </div>
-        {% if protein_location %}
+        {% if job_result %}
         <div class="row">
             <div class="col-sm-12">
                 <hr>
-                <h2>Results</h2>
-                <div class="alert alert-info">
-                    Protein location: <strong>{{ protein_location }}</strong>
-                </div>
+                <h2>Job</h2>
+                <p>Status: {{job_result.state}}</p>
+                <p>URL: <a href="/results/{{job_result.id}}">{{job_result.id}}</a></p>
+                {% if job_result.state == "SUCCESS" %}
+                   <p class="alert alert-success">Protein location: <strong>{{ job_result.get() }}</strong></p>
+                {% endif %}
             </div>
         </div>
         {% endif %}

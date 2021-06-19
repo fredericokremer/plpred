@@ -5,4 +5,6 @@ biopython
 pytest
 flask
 matplotlib
+celery
+redis
 -e .
