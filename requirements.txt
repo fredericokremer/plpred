@@ -7,4 +7,5 @@ flask
 matplotlib
 celery
 redis
+python-dotenv
 -e .
