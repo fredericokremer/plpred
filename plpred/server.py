@@ -22,7 +22,7 @@ def predict():
 def results(job_id:str):
     job_result = AsyncResult(job_id, app=celery)
     job_result.info
-    return render_template('index.html', job_result=job_result)
+    return render_template('result.html', job_result=job_result)
 
 def main():
     argument_parser = argparse.ArgumentParser(description="plpred-server: subcellular location prediction server")
